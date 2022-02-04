@@ -20,13 +20,13 @@
 
 
 # Description :
-a graphic project from 42 network , this project works only on macOS because of the library (mlx.h) that i used , and you need to set up this library first on your mac (GO TO 42 DOC).
+This project is a very small 2D game whith the help of `MinilibX`. 
+It is built to make you work with textures, sprites. And some very basic gameplay elements.
+this project works only on macOS because of the library `MinilibX` that i used,
+and you need to set up this library first on your mac (GO TO 42 DOC).
 
 # Preview :
-
-https://user-images.githubusercontent.com/84334734/152559975-f67e5364-89a6-4975-8e58-c1b195f0734a.mp4
-
-
+https://user-images.githubusercontent.com/84334734/152566250-63f9174b-badd-4a5c-9a8f-dfe35bdaa29f.mov
 
 
 
