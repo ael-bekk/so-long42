@@ -1,5 +1,5 @@
 <h1 align="center">
-	42 - files
+	42 - so_long
 </h1>
 
 <p align="center">
@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ael-bekk/files?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/ael-bekk/files?color=blueviolet" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/ael-bekk/files?color=blue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ael-bekk/files?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ael-bekk/files?color=brightgreen" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ael-bekk/so_long?color=blueviolet" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/ael-bekk/so_long?color=blueviolet" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/ael-bekk/so_long?color=blue" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ael-bekk/so_long?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ael-bekk/so_long?color=brightgreen" />
 </p>
 
-![jisokang's files Score](https://badge42.herokuapp.com/api/project/ael-bekk/files)
+![jisokang's so_long Score](https://badge42.herokuapp.com/api/project/ael-bekk/so_long)
 
 ![Screenshot](src/Screen1.png)
 
@@ -30,13 +30,13 @@ https://user-images.githubusercontent.com/84334734/152566250-63f9174b-badd-4a5c-
 
 
 
-## How to run files
+## How to run so_long
 
 ```bash
-git clone git@github.com:ael-bekk/files.git
-cd files
+git clone git@github.com:ael-bekk/so_long.git
+cd so_long
 make
-./files [path to the map.ber]
+./so_long [path to the map.ber]
 "[path to the map.ber] : (for example : maps/map.ber or any map from the maps dir or you can just create your own map)"
 ```
 
