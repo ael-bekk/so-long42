@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   valid_map_1.c                                      :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/22 12:42:19 by ael-bekk          #+#    #+#             */
-/*   Updated: 2022/02/03 14:39:46 by ael-bekk         ###   ########.fr       */
+/*   Created: 2021/12/21 17:39:08 by ael-bekk          #+#    #+#             */
+/*   Updated: 2022/02/04 17:53:44 by ael-bekk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
+#include "../inc/so_long.h"
 
-void	valid(char **map, char *name)
-{
-	check_shape(map, name);
-	check_walls(map, name);
-	check_char(map, name);
-}
-
-void	valid_map(char *map)
+void	entre_map(char *map)
 {
 	int		fd;
 	char	*line;
@@ -27,11 +20,7 @@ void	valid_map(char *map)
 	char	**split;
 
 	fd = open(map, O_RDONLY);
-	if (fd < 0)
-		error_map("file doesn't exist.\n", map);
 	line = get_next_line(fd);
-	if (line == NULL || line[0] == '\n')
-		error_map("empty file.\n", map);
 	join = NULL;
 	while (line)
 	{
@@ -40,20 +29,23 @@ void	valid_map(char *map)
 	}
 	split = ft_split(join, '\n');
 	free(join);
-	valid(split, map);
+	display_map(split, map);
 	free_split(split);
 	close(fd);
 }
 
-void	test_all_maps_valid(char **maps, int ac)
+int	main(int ac, char **av)
 {
 	int	i;
 
-	i = -1;
-	while (++i < ac)
-		if (!ft_strnstr(maps[i], ".ber", ft_strlen(maps[i])))
-			error_map("map have a wrong extention.\n", maps[i]);
-	i = -1;
-	while (++i < ac)
-		valid_map(maps[i]);
+	i = 0;
+	if (ac < 2)
+		error_map("you need a map.\n", "no map");
+	if (ac > 2)
+		error_map("you need just one map.\n", "no map");
+	if (!ft_strnstr(av[1], ".ber", ft_strlen(av[1])))
+		error_map("map have a wrong extention.\n", av[1]);
+	valid_map(av[1]);
+	entre_map(av[1]);
+	return (0);
 }

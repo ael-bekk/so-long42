@@ -6,11 +6,11 @@
 /*   By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 21:08:25 by ael-bekk          #+#    #+#             */
-/*   Updated: 2022/02/03 12:23:25 by ael-bekk         ###   ########.fr       */
+/*   Updated: 2022/02/04 17:53:44 by ael-bekk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
+#include "../inc/so_long.h"
 
 void	init_struct(t_data *data, char **map)
 {
@@ -27,7 +27,7 @@ void	init_struct(t_data *data, char **map)
 	find_all_enm(data);
 	data->player.coll = count_c(map, 'C');
 	data->player.enemy = count_c(map, 'Y');
-	data->win = mlxnw(data, "so_long");
+	data->win = mlxnw(data, "files");
 }
 
 void	display_map(char **map, char *file_to_map)

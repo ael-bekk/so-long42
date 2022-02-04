@@ -6,11 +6,11 @@
 /*   By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 14:42:51 by ael-bekk          #+#    #+#             */
-/*   Updated: 2022/02/03 14:41:53 by ael-bekk         ###   ########.fr       */
+/*   Updated: 2022/02/04 17:53:44 by ael-bekk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
+#include "../inc/so_long.h"
 
 void	check_char_cond(char map, t_char *check, char *name)
 {

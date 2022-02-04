@@ -6,11 +6,11 @@
 /*   By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/13 13:53:43 by ael-bekk          #+#    #+#             */
-/*   Updated: 2022/02/03 11:36:55 by ael-bekk         ###   ########.fr       */
+/*   Updated: 2022/02/04 17:53:44 by ael-bekk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
+#include "../inc/so_long.h"
 
 void	mv_enemy_top_down(t_data *data, t_en_pos *enemy)
 {

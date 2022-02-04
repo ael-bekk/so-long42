@@ -6,11 +6,11 @@
 /*   By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 13:55:53 by ael-bekk          #+#    #+#             */
-/*   Updated: 2022/02/04 11:16:54 by ael-bekk         ###   ########.fr       */
+/*   Updated: 2022/02/04 17:53:44 by ael-bekk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
+#include "../inc/so_long.h"
 
 void	put_heart(t_data *data)
 {
