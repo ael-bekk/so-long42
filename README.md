@@ -3,12 +3,12 @@
 </h1>
 
 <p align="center">
-	<b><i>project form 42cursus project at 1337</i></b><br>
+	<b><i>Project from 42cursus projects at 1337</i></b><br>
 </p>
 
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ael-bekk/so_long?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/ael-bekk/so_long?color=blueviolet" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/ael-bekk/so_long/files?color=blueviolet" />
 	<img alt="Code language count" src="https://img.shields.io/github/languages/count/ael-bekk/so_long?color=blue" />
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ael-bekk/so_long?color=blue" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ael-bekk/so_long?color=brightgreen" />
@@ -20,9 +20,9 @@
 
 
 # Description :
-This project is a very small 2D game whith the help of `MinilibX`. 
-It is built to make you work with textures, sprites. And some very basic gameplay elements.
-this project works only on macOS because of the library `MinilibX` that i used,
+This project is a small 2D game with 42schools library `MinilibX`. 
+It's built to make you work with textures, sprites and some very basic graphical elements.
+This project works only on macOS because of the library `MinilibX` that i used,
 and you need to set up this library first on your mac (GO TO 42 DOC).
 
 # Preview :
