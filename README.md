@@ -26,7 +26,7 @@ This project works only on macOS because of the library `MinilibX` that i used,
 and you need to set up this library first on your mac (GO TO 42 DOC).
 
 # Preview :
-https://user-images.githubusercontent.com/84334734/152566250-63f9174b-badd-4a5c-9a8f-dfe35bdaa29f.mov
+https://github.com/ael-bekk/so_long/blob/main/src/152566250-63f9174b-badd-4a5c-9a8f-dfe35bdaa29f.gif
 
 
 
