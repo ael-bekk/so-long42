@@ -6,12 +6,13 @@
 #    By: ael-bekk <ael-bekk@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/04 11:09:41 by ael-bekk          #+#    #+#              #
-#    Updated: 2022/02/04 17:52:10 by ael-bekk         ###   ########.fr        #
+#    Updated: 2022/02/07 16:38:14 by ael-bekk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= so_long
-
+Yellow='\033[0;33m'
+NONE='\033[0m'
 SRCS	= files/main.c \
 			inc/get_next_line/get_next_line.c inc/get_next_line/get_next_line_utils.c \
 			inc/libft/ft_split.c inc/libft/ft_strlen.c inc/libft/ft_strnstr.c inc/libft/ft_putstr_fd.c \
@@ -30,11 +31,17 @@ RM		= rm -f
 all:	$(NAME) $(SRCS)
 
 $(NAME):  	$(SRCS)
-			@$(FLGS) -lmlx -framework OpenGL -framework AppKit $(SRCS) -o $(NAME)
-			@echo "\033[0;32mso_long is ready"
+	@$(FLGS) -lmlx -framework OpenGL -framework AppKit $(SRCS) -o $(NAME)
+	@echo "\033[0;32mso_long is ready"
+
+play: all
+	@echo $(YELLOW)"     - Playing all maps... \n"$(NONE)
+	@./$(NAME) maps/map_0.ber
+	@./$(NAME) maps/map_1.ber
+	@./$(NAME) maps/map_2.ber
 
 clean:
-			@$(RM) $(NAME)
+	@$(RM) $(NAME)
 
 fclean:		clean
 
