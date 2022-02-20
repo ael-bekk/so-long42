@@ -56,6 +56,6 @@ The player’s goal is to collect all collectibles present on the map then escap
 
 ## 📝 License
 
-This project is licensed under the MIT - see the [LICENSE](license) file for details.
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
 
 ---
