@@ -53,3 +53,9 @@ The player’s goal is to collect all collectibles present on the map then escap
 |`click on th setting icon and choose what you want`|change the keys from the setting icon|
 |`ESC ⎋`|Close the game window|
 |`ESP `|attack on enemys|
+
+## 📝 License
+
+This project is licensed under the MIT - see the [LICENSE](license) file for details.
+
+---
